@@ -1,7 +1,18 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
+    <!-- 通知浏览器，打开域名解析 -->
+    <!--<meta http-equiv="x-dns-prefetch-control" content="on"/>-->
+    <!-- 解析指定域名 -->
+    <!--<link rel="dns-prefetch" href="//www.baidu.com"/>-->
+    <!-- 通知浏览器，关闭域名解析 -->
+    <!--<meta http-equiv="x-dns-prefetch-control" content="off"/>-->
+
+    <!-- 针对当前页面的资源，如果当前页面指定资源比较大，更早的加载资源，提升页面加载速度 -->
+    <!--<link rel="preload" href="xxx.jpg"/>-->
+    <!-- 针对下一页页面的资源，如果当前页面指定资源比较大，更早的加载资源，提升页面加载速度 -->
+    <!--<link rel="prefetch" href="xxx.js"/>-->
     <title>测试页面缓存</title>
     <!-- <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
