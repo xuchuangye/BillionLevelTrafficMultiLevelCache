@@ -48,7 +48,7 @@ public class TestSoftReferenceClean {
 }
 
 class Student {
-	
+
 }
 
 class SoftRefedStudent extends SoftReference<Student> {

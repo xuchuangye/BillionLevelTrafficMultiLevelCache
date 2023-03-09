@@ -17,6 +17,7 @@
     <modules>
         <module>ClientOptimization</module>
         <module>CacheDesign</module>
+        <module>ApplicationProtection</module>
     </modules>
 
     <packaging>pom</packaging>
